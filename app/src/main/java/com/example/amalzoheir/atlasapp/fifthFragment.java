@@ -13,19 +13,9 @@ import java.util.ArrayList;
 
 public class fifthFragment extends Fragment{
 
-
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-       View rootView=inflater.inflate(R.layout.fifth_section_fragment_layout,container,false);
-       ArrayList<TextAtlasInSections> textAtlasInSectionsArrayList=new ArrayList<TextAtlasInSections>();
-       textAtlasInSectionsArrayList.add(new TextAtlasInSections("first"));
-        textAtlasInSectionsArrayList.add(new TextAtlasInSections("second"));
-        textAtlasInSectionsArrayList.add(new TextAtlasInSections("third"));
-        TextInSectionAdapter itemAdapter=new TextInSectionAdapter(this.getActivity(),textAtlasInSectionsArrayList);
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
-        listView.setAdapter(itemAdapter);
-        return rootView;
+        return inflater.inflate(R.layout.third_section_fragment_layout,container,false);
     }
 }

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,34 +13,49 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
+import java.util.List;
 
-public class TextInSectionAdapter extends ArrayAdapter<TextAtlasInSections> {
-   public TextInSectionAdapter(Activity context, ArrayList<TextAtlasInSections> textAtlasInSections){
-       super(context,0,textAtlasInSections);
+public class TextInSectionAdapter extends RecyclerView.Adapter<TextInSectionAdapter.TextInSectionViewHolder>{
+    private List<TextAtlasInSections> textAtlasInSectionsList;
+    public class TextInSectionViewHolder extends RecyclerView.ViewHolder {
+        public TextView dataInSectionTextView;
+        public ImageView iconImageView;
+        public TextInSectionViewHolder(View view) {
+            super(view);
+          dataInSectionTextView=(TextView)view.findViewById(R.id.data_in_section_tv);
+          iconImageView=(ImageView)view.findViewById(R.id.icon_image_view);
+        }
+    }
+    public TextInSectionAdapter(List<TextAtlasInSections> textAtlasInSectionsList){
+        this.textAtlasInSectionsList=textAtlasInSectionsList;
+    }
 
-   }
-
-    @NonNull
     @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-       View listItemView=convertView;
-       if(listItemView==null){
-           listItemView= LayoutInflater.from(getContext()).inflate(
-                   R.layout.list_item, parent, false);
-       }
-       TextAtlasInSections currentTextAtlasInSections= getItem(position);//get current element in list
-        TextView dataInSectionsTextView=(TextView)listItemView.findViewById(R.id.data_in_section_tv);//get text view from listitem view
-        dataInSectionsTextView.setText(currentTextAtlasInSections.getDataAboutSection());
-        ImageView iconImageView=(ImageView)listItemView.findViewById(R.id.icon_image_view);
+    public TextInSectionViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View itemView=LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item,parent,false);
+        return new TextInSectionViewHolder(itemView);
+    }
+
+    @Override
+    public void onBindViewHolder(TextInSectionViewHolder holder, int position) {
+        TextAtlasInSections currentTextAtlasInSections=textAtlasInSectionsList.get(position);
+        holder.dataInSectionTextView.setText(currentTextAtlasInSections.getDataAboutSection());
         if(currentTextAtlasInSections.hasImage()){
-            iconImageView.setImageResource(currentTextAtlasInSections.getImageSourceNumber());
-            iconImageView.setVisibility(View.VISIBLE);
+            holder.iconImageView.setImageResource(currentTextAtlasInSections.getImageSourceNumber());
+            holder.iconImageView.setVisibility(View.VISIBLE);
         }
         else
         {
-            iconImageView.setVisibility(View.GONE);
+            holder.iconImageView.setVisibility(View.GONE);
         }
-        return listItemView;
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return textAtlasInSectionsList.size();
     }
 }
