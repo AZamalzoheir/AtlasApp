@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">اطلس</string>
+    <string name="atlas">الاطلس العربى</string>
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="tab_text_0">المقدمة</string>
+    <string name="tab_text_1">ألموضوع ألاول</string>
+    <string name="tab_text_2">ألموضوع ألثاني</string>
+    <string name="tab_text_3">ألموضوع ألثالث</string>
+    <string name="tab_text_4">ألموضوع ألرابع</string>
+    <string name="tab_text_5">ألموضوع ألخامس</string>
+    <string name="tab_text_6">ألموضوع ألسادس</string>
+    <string name="tab_text_7">أستراتيجيه الخرائط الذهنيه</string>
+    <string name="action_settings">ألاعدادات</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
