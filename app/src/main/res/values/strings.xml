@@ -11,5 +11,853 @@
     <string name="tab_text_6">ألموضوع ألسادس</string>
     <string name="tab_text_7">أستراتيجيه الخرائط الذهنيه</string>
     <string name="action_settings">ألاعدادات</string>
+    <string name="main_domain">ألهدف العام للموضوع</string>
+    <string name="at_the_end_of_section">فى نهايه الوحده يجب ان تكون قادر على</string>
+    <string name="introduction">ألمقدمه</string>
+    <string name="annonceForFunction">الإعلان عن الدالة GetDatafromExcelSheet</string>
+    <string name="annonceForVariables">الإعلان عن المتغيرات المستخدمة</string>
+    <string name="explainCode">تفسير الكود</string>
+    <string name="useFunction">استخدام الدالة Get Data from Excel Sheet في ملء قائمة القارات بأسمائها</string>
+    <string name="design_project">تصميم واجهة المشروع</string>
+    <string name="put_control_tool">وضع أدوات التحكم</string>
+    <string name="notes">ملحوظة</string>
+    <string name="homework">تقويم سريع</string>
+    <string name="remember">تذكر</string>
+    <string name="activities">نشاط</string>
+    <string name="final_homework">ألتقويم النهائى</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="main_gaol">الهدف العام للموضوع: تصميم وإنشاء واجهة تعامل المستخدم مع المشروع. </string>
+    <string name="second_goal">الأهداف السلوكية الخاصة بالموضوع: عزيزتي الطالبة في نهاية دراستك للموضوع يُرجى أن تكوني قادرة على أن:</string>
+    <string name="goal1">	تبدي اهتماماً بدراسة البرمجة بلغة Visual Basic.Net.</string>
+    <string name="goal2">	تصنفي مجلدات المشروع التي تم اعدادها مسبقا.</string>
+    <string name="goal3">	تفسري الهدف من تصميم وإنشاء المشروع.</string>
+    <string name="goal4">		تحللي واجهة تعامل المستخدم مع المشروع.</string>
+    <string name="goal5">		تصممي واجهة تعامل المستخدم مع المشروع.</string>
+    <string name="goal6">		تفحصي خصائص النموذج Form.</string>
+    <string name="goal7">		تحددي أدوات التحكم المستخدمة.</string>
+    <string name="goal8">	تخصصي أداة تحكم جديدة لمربع الأدوات Toolbox.</string>
+    <string name="goal9">	تعيني خصائص أدوات التحكم.</string>
+    <string name="goal10">	تحددي الأدوات التي يسمح بظهورها للمستخدم.</string>
+    <string name="goal11">	تحددي الأدوات التي لا يسمح بظهورها للمستخدم.</string>
+    <string name="introduction1">	عزيزتي الطالبة من خلال دراستك لموضوعات الفصل الدراسي الأول تعرفتي على كيفية الإعداد لبناء وتصميم مشروع الأطلس العربي الإلكتروني، وتجميع البيانات اللازمة لإنشاء المشروع والتي تمثلت في المجلدات الاتية:</string>
+    <string name="introduction2">		مجلد المشروع الذي يضم كافة محتويات المشروع من ملفات ومجلدات تحت اسم Atlas.</string>
+    <string name="introduction3">		مجلد Database يخزن به ملف Excel الذي يحتوي على بيانات الدول.</string>
+    <string name="introduction4">			مجلد Flags يخزن به أعلام الدول.</string>
+    <string name="introduction5">	مجلد Maps يخزن به خرائط الدول.</string>
+    <string name="introduction6">مجلد Anthem يخزن به السلام الوطني لكل دولة.</string>
+    <string name="introduction7">مجلد Videos يخزن به ملفات الفيديو الخاصة بالمعالم السياحية.</string>
+    <string name="design1">عزيزتي الطالبة لقد درستي في العام السابق البرمجة باستخدام Visual Basic.Net التي سنستعين بها في إنشاء وتصميم واجهه برنامج الأطلس العربي الإلكتروني، من خلال اتباعك الخطوات التالية:</string>
+    <string name="design2">	⦁ افتحي Visual Studio.Net المتوفر على جهازك.</string>
+    <string name="design3">	من قائمة File اختاري New Project.</string>
+    <string name="design4">حددي نوع التطبيق Windows Forms Application.</string>
+    <string name="design5">اكتبي اسم المشروع باسم Atlas.</string>
+    <string name="design6">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدئي في تصميم خريطتك الذهنية من خلال وضع فكرة محورية في منتصف خريطتك الذهنية الإلكترونية.</string>
+    <string name="control1">عزيزتي الطالبة لاستكمال تصميم برنامج الأطلس العربي الإلكتروني يتم تحديد أدوات التحكم التي سوف يتم استخدامها في التصميم وادراجها على واجهه تعامل المستخدم مع البرنامج كما هو موضح بالشكل التالي: </string>
+    <string name="control2">نجد أننا قمنا بوضع 10 أدوات عنوان Label وهي تستخدم في ...........</string>
+    <string name="control3">و2 أداة Combo Box تستخدم في ................</string>
+    <string name="control4">و2 أداة Picture Box تستخدم في ..............</string>
+    <string name="control5"> وأداة Button عند الضغط علية يقوم بــــ............</string>
+    <string name="control6">وأداة Windows Media Player تستخدم في تشغيل ......... و...........</string>
+    <string name="note1">لا توجد أداة Ax Windows Media Player ضمن مربع الأدوات (Toolbox) ولكن يجب ضمها لهذا المربع (Toolbox) كما هو موضح بالخطوات الآتية، بمعاونة معلمك:</string>
+    <string name="note2">انقري بالزر الأيمن للفأرة داخل Toolbox واختاري (Choose Items).</string>
+    <string name="note3">يظهر لك مربع حواري من التبويب COM components اختاري Windows Media Player ثم اضغطي على الزر (Ok) ليتم إضافة هذه الأداة إلى مربع الأدوات.</string>
+    <string name="note4">بعد أضافة أداة التحكم Ax Windows Media Player لصندوق الأدوات Tool Box يتم ادراجها على نموذج Form.</string>
+    <string name="note5">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدئي في تفريع الفروع الرئيسية لخريطتك الذهنية وكتابة الكلمات الرئيسة المرتبطة بالفكرة المحورية.
+عزيزتي الطالبة أجيبي على الأسئلة التالية:</string>
+    <string name="note6">يمكن ان يحتوي الملف File على مجلدات folder وملفات Files فرعية ()</string>
+    <string name="note7">يعتبر الامتداد Mp3 أفضل أنواع امتدادات ملفات الصوت ()</string>
+    <string name="note8">تمكن لغة البرمجة Visual Basic.Net من تصميم أنواع متعددة من التطبيقات ()</string>
+    <string name="controlTool1">عزيزتي الطالبة نستكمل في هذه المرحلة تصميم واجهة المشروع من خلال ضبط خصائص نافذة النموذج Form1 وأدوات التحكم Controls الموجودة عليها كما هو موضح بالشكل الآتي: </string>
+    <string name="controlTool2">اضبطي خاصية Name لبعض أدوات التحكم Controls الموجودة على نافذة النموذج Form1 كما هو موضح بالجدول الآتي:</string>
+    <string name="controlTool3">مع مراعاة أن يكون اسم الأداة معبرًا عن محتواه مثل: cmbbxState حيث: cmbbx تدل على أن الأداة Combo Box وState تدل على أن الأداة بها اسم الدولة.</string>
+    <string name="controlTool4">اضبطي خاصية Visible للأداة WMPlayer بالقيمة False.</string>
+    <string name="controlTool5">اضبطي خاصية Size Mode للأداتين pic Flag وpic Map بالقيمة .Stretch Image</string>
+    <string name="controlTool6">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة استكملي تصميم خريطتك الذهنية الإلكترونية من خلال تفريع الفروع الثانوية لخريطتك الذهنية وكتابة الكلمات الثانوية المرتبطة بالفروع الرئيسية.</string>
+    <string name="controlTool7">عزيزتي الطالبة أجيبي على الأسئلة التالية:
+\n	يمكن ادراج صور متحركة داخل أداة التحكم Picture Box                         (    )
+\n	يمكن وضع صورة داخل أداة التحكم Label                                         (     )
+\n	تسمح لغة Visual Basic.Net بإضافة أدوات تحكم جديدة Controls إلى صندوق الادوات Tool Box            (  )
+\n	يتم ضبط الخصائص من خلال نافذة الادوات    Tool Box                          (  )
+\n	يمكن عمل ترتيب أبجدي لعناصر أداة Combo Box                               (   )
+\n	يتم وضع صورة كخلفية لنموذج Form من خلال ضبط الخاصية .......
+\n	1-Image	2-Back ground image
+\n	3-Icon	4-Back Color
+\n	لتغيير النص الظاهر على أداة التحكم يتم ضبط قيمة الخاصية ....... بالنص المراد.
+\n	1-Text	2-Font
+\n	3-Name	4-Text Align
+</string>
+    <string name="secondGoal1">الهدف العام:
+إنشاء قناة اتصال بين قواعد البيانات والبرمجية.</string>
+    <string name="secondGoal2">عزيزتي الطالبة في نهاية دراستك للموضوع يُرجى أن تكوني قادرة على أن: -</string>
+    <string name="secondGoal3">تشاركي في المناقشة الصفية.</string>
+    <string name="secondGoal4">تشرحي المقصود بالمصطلحات والمفاهيم التالية:
+Data Table – ADO – Select- Provider - OleDb   Data Source- Class - Data Set- Command Text -Object –Namespace – Framework - SQL. </string>
+    <string name="secondGoal5">	تستنتجين مراحل استدعاء البيانات للبرمجية.
+\n	تحددي المتغيرات المستخدمة في المشروع.
+\n	تستخدمي نافذة الكود لكتابة أوامر البرمجة.
+\n	تنشئي قناة اتصال بين قاعدة البيانات والبرمجية.
+\n	 تعُلني عن المتغيرات اللازمة لفتح قناة اتصال.
+\n	تخصصي قيم المتغيرات المستخدمة.
+\n	تدمجي ملف إكسيل إلى الذاكرة.
+\n	 تخصصي مصدر البيانات المستخدمة في المشروع.
+\n	تستخدمي جملة Select.
+\n	تنشئي الدالة الخاصة بقراءة بيانات ورقة Excel.
+\n	تخصصي ناتج القيمة الراجعة من الدالة.
+\n	تنشئي الكود الخاص بملء أداة Combo Box بأسماء القارات.
+</string>
+    <string name="secondGoal6"></string>
+    <string name="secondGoal7"></string>
+    <string name="secondIntroduction1">عزيزتي الطالبة درستي في الموضوع السابق كيفية اعداد واجهة تعامل المستخدم مع برنامج الاطلس العربي الإلكتروني، واضافة أدوات التحكم المستخدمة في المشروع ومنها أداة العنوان Label، وصندوق السردCombo Box، ومربع الصورة Picture Box، كما تعرفتي على كيفية ضبط خصائص أدوات التحكم المستخدمة في المشروع.</string>
+    <string name="secondIntroduction2">قراءة البيانات باستخدام Visual Basic.Net</string>
+    <string name="secondIntroduction3">عزيزتي الطالبة نستكمل في الموضوع الحالي خطوات انشاء المشروع من خلال فتح قناة اتصال بين قاعدة البيانات ولغة البرمجة Visual Basic.Net، والإعلان عن المتغيرات المستخدمة في المشروع والتي تمكنك من قراءة بيانات ورقة Excel بواسطة Visual Basic.Net من خلال اتباعك بعض الخطوات التالية: -</string>
+    <string name="secondIntroduction4">	افتحي مشروع الاطلس العربي الإلكتروني الذي قمتي بحفظة في الموضوع السابق.</string>
+    <string name="secondIntroduction5">	افتحي نافذه الكود من خلال الضغط على مفتاح F7.</string>
+    <string name="secondIntroduction6">	اقتبى أكواد البرمجة اللازمة.</string>
+    <string name="secondIntroduction7">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدائي في تصميم خريطتك الذهنية من خلال وضع فكرة محورية في منتصف خريطتك الذهنية الإلكترونية.
+المصطلحات والمفاهيم المستخدمة في المشروع</string>
+    <string name="secondIntroduction8">عزيزتي الطالبة أثناء كتابتك كود البرمجة في Visual Basic.Net، سوف تستخدمي بعض المصطلحات والمفاهيم الأساسية التي سبق لك دراستها في العام السابق، وأيضًا سيتم التعرف على بعض المصطلحات الجديدة في هذا المقرر كالآتي:</string>
+    <string name="secondIntroduction9">	ActiveX Data Object (ADO):
+        \n
+        \n
+هو تقنية متقدمة يمكن استخدامها لجعل أدوات التحكم (Control Tools) ليست مجرد أدوات عادية ولكن يمكن جعلها تتعامل مع قواعد البيانات من خلال برمجيات مناسبة وعمل مشاريع وتطبيقات تتعامل مع قواعد البيانات المتعددة
+ (Windows Applications – Web Application)
+حيث ADO.NET عبارة عن مجموعة من التصنيفات أو الفئات (Classes) التي تتعامل مع مصادر البيانات مثل Access وOracle وSQL server، وكل هذه البرمجيات تستطيع بناء قواعد البيانات والتعامل معها. ويعتبر ADO.NET جزء من إطار العمل Framework. </string>
+    <string name="secondIntroduction10">Class:
+        \n
+        \n
+   هو المخطط Blueprint الذي يتم إنشاء الكائنات منه ويحدد به العديد من العناصر مثل الخصائص Properties والوظائف أو الوسائل Methods والأحداث Events والتي يأخذها أي كائن Object يتم إنشاؤه من التصنيف  . Class
+</string>
+    <string name="secondIntroduction11">Object:
+        \n
+        \n
+        يتميز الكائن بأن له:
+        \n
+        خصائص Properties تصف الكائن وتحدده.
+        \n
+	أحداث Events يمكن أن تقع عليه.
+        \n
+	وظائف أو وسائل Methods ويقصد بها ما يمكن أن يفعله الكائن عند وقوع حدث معين.
+        \n
+والكائن هو وحدة البناء الأساسية في لغات البرمجة كائنية التوجه Object Oriented ويتم انشاؤه من تصنيف معين (Class). حيث أن أي كائن Object ليس له وجود إلا بعد إنشائه من تصنيف معين Class.
+</string>
+    <string name="secondIntroduction12">Namespace:
+        \n
+يحتوي على مجموعة من التصنيفات (Classes) التي يمكن استخدامها عند الاحتياج إليها.
+</string>
+    <string name="secondIntroduction13">Framework:
+        \n
+هو إطار العمل لجميع تطبيقات Visual Studio.NET الذي يمُكنك من الآتي:
+        \n
+        إنتاج العديد من تطبيقات .NET مثل التطبيقات المكتبية وتطبيقات الويب.
+        \n
+        توفير بيئة تشغيل لهذه التطبيقات.
+        \n
+ويتكون إطار العمل Framework من:
+	بيئة التشغيل Common Language Runtime(CLR)
+	مكتبات تصنيفات النظام . System Class Libraries
+	مترجمات Compilers .
+</string>
+    <string name="secondIntroduction14">(Structured Query Language) SQL:
+        \n
+        هي لغة التعامل مع ملفات قواعد البيانات.
+        \n
+        مصطلحات أخرى يمكن استخدامها أثناء التعامل مع قواعد البيانات منها:
+        \n
+
+</string>
+    <string name="secondIntroduction15">الشكل التالي يوضح مراحل استدعاء بيانات من قاعدة بيانات مخزنة على وسيط تخزين وتحويلها إلى جدول بيانات في الذاكرة، ثم عرضها في الكائن المناسب على شاشة النموذج في لغة Visual Basic.Net.
+
+    </string>
+    <string name="secondIntroduction17">الشكل الاول</string>
+    <string name="secondIntroduction18">الشكل الثانى</string>
+    <string name="secondIntroduction19">الشكل الثالث</string>
+    <string name="secondIntroduction16">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدئي في تفريع الفروع الرئيسة لخريطتك الذهنية وكتابة الكلمات الرئيسية المرتبطة بالفكرة المحورية.
+</string>
+    <string name="secondIntroductionquestion">عزيزتي الطالبة اجيبي على الأسئلة التالية:</string>
+    <string name="secondIntroductionquestion1">	يستخدم .......... في ترجمة وتحويل مجموعة الأوامر والتعليمات المكتوبة بلغة Visual Basic.Net الى لغة الالة.</string>
+    <string name="secondIntroductionquestion2">يحتوي .............. على قائمة بمجلدات وملفات المشروع .</string>
+    <string name="secondIntroductionquestion3">.	 …………. هو عبارة عن مجموعة الأوامر والتعليمات التي يتم تنفيذها عند وقوع اجراء ما </string>
+    <string name="confirmAnswer">تاكيد</string>
+    <string name="answersquestionsecondpart1">form</string>
+    <string name="answersquestionsecondpart2">IDE</string>
+    <string name="answersquestionsecondpart3">Compiler</string>
+    <string name="answersquestionsecondpart4">Runtime</string>
+    <string name="answersquestionsecondpart11">Solution Explorer</string>
+    <string name="answersquestionsecondpart21">My project</string>
+    <string name="answersquestionsecondpart31">Data Scource</string>
+    <string name="answersquestionsecondpart41">Label</string>
+    <string name="answersquestionsecondpart12">الخصائص</string>
+    <string name="answersquestionsecondpart22">الوسائل</string>
+    <string name="answersquestionsecondpart32">التصنيف</string>
+    <string name="answersquestionsecondpart42">الحدث</string>
+    <string name="annonuceForFunction1">بعد إعداد واجهة البرنامج وضبط خصائصها وخصائص أدوات التحكم Controls الموجودة عليها تأتي مرحلة كتابة الكود المناسب حتى تقوم واجهة البرنامج بالاستجابة لاحتياجات مستخدم برنامج الأطلس العربي.</string>
+    <string name="annonuceForFunction2">بما أن بيانات البرنامج توجد لدى ملف Excel الذي يحتوي على البيانات، إذاً نحتاج لفتح قناة أتصال بين برنامج الأطلس العربي وملف Excel ويتم ذلك باستخدام تصنيفات Classes تندرج تحت مسمى ADO.NET تمكن من قراءة البيانات المخزنة بملف وعرضها على واجهة البرنامج والتعامل معها وذلك بإتباع الخطوات الآتية:</string>
+    <string name="annonuceForFunction3">افتحي نافذة الكود الخاصة بنافذة النموذج Form1 ثم اكتبي كود الإعلان عن الدالة Get Data from Excel Sheet كما هو موضح بالكود الاتي:</string>
+    <string name="annonuceForFunction4">Function GetDatafromExcelSheet(By Val File Path As String, By Val Sql As String) As Data Table
+\n
+End Function</string>
+    <string name="annonuceForFunction5">هذه الدالة لها عدد 2 وسائط هما File Path حيث يمثل مسار ملف Excel وsql حيث يمثل الجملة التي من خلالها سوف يستعلم عن البيانات من ملف Excel وتعود الدالة بقيمة من النوع Data Table عبارة جدول بيانات في ذاكرة الكمبيوتر به البيانات التي احضرت من ملف Excel. </string>
+    <string name="explainCode1">المتغير My Connection سوف يمكن من فتح قناة اتصال بورقة العمل التي بها البيانات في ملف Excel.</string>
+    <string name="explainCode2">المتغير My Command سوف يقوم بتنفيذ استعلام بموجبه يتم الحصول على البيانات من ملف Excel.</string>
+    <string name="explainCode3">المتغير da سوف يعمل كمحول للبيانات من ملف Excel لجدول البيانات لدى المتغير dt.</string>
+    <string name="explainCode4">المتغير dt لدية جدول يحفظ به البيانات التي تم إحضارها من ملف Excel.
+</string>
+    <string name="annonceforvariable1">Function GetDatafromExcelSheet(By Val File Path As String, By Val Sql As String) As Data Table
+        \n
+        Dim My Connection As New OleDb.OleDbConnection
+        \n
+        Dim My Command As New OleDb.OleDbCommand
+        \n
+        Dim da As New OleDb.OleDbDataAdapter
+        \n
+        Dim dt As New Data Table
+    </string>
+    <string name="annonceforvariable2">MyConnection.ConnectionString = "Provider=Microsoft.Jet. Oledb.4.0; Data Source='" and File Path and "‘; Extended Properties=Excel 8.0"
+        \n
+        MyCommand.Connection = My Connection
+        \n
+MyCommand.CommandText = Sql
+        \n
+da. Select Command = My Command
+        \n
+da. Fill(dt)
+        \n
+Return dt
+        \n
+End Function
+</string>
+    <string name="howToMakeCode">طريقة عمل الكود
+        \n
+يقوم محول البيانات da باستخدام الأمر My Command الذي لديه جملة الاستعلام sql عن البيانات المطلوبة من ملف Excel الذي أتخذ قناة الاتصال My Connection طريقا لتحويل البيانات إلى dt، ثم تقوم الدالة بإرجاع dt بها البيانات من ملف Excel.
+</string>
+    <string name="questionCode">عزيزتي الطالبة اجيبي على الأسئلة التالية:</string>
+    <string name="questionCode1">()	1-يتم الإعلان عن الدالة Function باستخدام   Private Sub</string>
+    <string name="questionCode2">()	2-تحتوي الدالة GetDatafromExcelSheet على وسيط واحد فقط </string>
+    <string name="questionCode3"> 3-يستخدم الامر Return dt لإرجاع قيمة لجدول البيانات ()</string>
+    <string name="trueQuestion">True</string>
+    <string name="falseQuestion">False</string>
+    <string name="useFunction1">في نافذة الكود قم باختيار (Form1 Events) من قائمة Class Name واختيار الحدث Shown من قائمة Method Name كما هو موضح بالشكل الآتي:</string>
+    <string name="useFunction2">ثم أكتبي الكود الآتي:
+ \n
+        Private Sub Form1_Shown(By Val sender As Object, By Val e As System.EventArgs) Handles Me. Shown
+\n
+        Dim dt As New Data Table
+\n
+        dt = GetDatafromExcelSheet ("C:\Atlas\database\atlas.xls", "select distinct القارة from [data$]")
+\n
+        Me. cmbbxContinent.DataSource = dt
+\n
+        Me. cmbbxContinent.DisplayMember = dt. Columns (0). To String
+\n
+        Me. cmbbxContinent.ValueMember = dt. Columns (0). To String
+\n
+        Me. cmbbxContinent.SelectedIndex = 1
+\n
+    End Sub
+</string>
+    <string name="useFunction3">في الكود السابق:
+تم الإعلان عن متغير dt من النوع Data Table، ثم تخصيص ناتج القيمة الراجعة من الدالة Get Data from Excel Sheet له بعد إعطاء مسار ملف قاعدة البيانات وجملة الاستعلام التي من خلالها يتم الحصول على أسماء القارات.
+</string>
+    <string name="useFunction4">تم ضبط بعض خصائص الأداة cmbbxContinent</string>
+    <string name="useFunction5">تم تخصيص dt الذي يحتوي على جدول البيانات المحضرة من ملف Excel للخاصية Data Source.</string>
+    <string name="useFunction6">تم تخصيص العمود الأول (الحقل الأول) من جدول البيانات dt للخاصية Display Member حتى يمكن عرض محتويات هذا العمود في الأداة cmbbxContinent حيث يقصد بـ Column (0) العمود الأول</string>
+    <string name="useFunction7">تم تخصيص العمود الأول من جدول البيانات dt للخاصية Value Member كقيمة لعناصر قائمة الأداة cmbbxContinent. ويمكن توضيح الفرق بين الخاصيتين Display Member وValue Member للأداة Combo Box كالآتي:</string>
+    <string name="useFunction8">الأداة Combo Box تحتفظ بقيمتين إحداهما قيمة ظاهرة يتم الاحتفاظ بها داخل الخاصية Display Member والقيمة الأخرى غير ظاهرة يتم الاحتفاظ بها داخل الخاصية Value Member كما هو موضح بالمثال التالي:  </string>
+    <string name="useFunction9">بفرض وجود جدول بيانات به حقلين ("اسم الطالب" و"الرقم القومي") ومطلوب عرض "اسم الطالب" في Combo Box وعند اختيار اسم من القائمة يظهر رقمه القومي في أداة عنوان Label.</string>
+    <string name="useFunction10">لإنجاز ما سبق، يتم تخصيص حقل "اسم الطالب" للخاصية Display Member وتخصيص الحقل "الرقم القومي" للخاصية Value Member</string>
+    <string name="useFunction11"> وذلك في إجراء Value Member للأداة Label للخاصية Text ثم تخصص الحدث    SelectedIndexChanged للـ Combo Box</string>
+    <string name="useFunction12">تم تخصيص القيمة 1 للخاصية Selected Index بحيث يتم استدعاء معالج الحدث
+ . cmbbxContinent_SelectedIndexChanged
+</string>
+    <string name="useFunction13">عند التشغيل نجد أن قائمة القارات بها أسماء القارات كما هو موضح بالشكل الآتي: </string>
+    <string name="useFunctionQuestion">عزيزتي الطالبة أجيبي على الأسئلة التالية:</string>
+    <string name="useFunctionQuestion1">1-يستخدم الأمر Me. cmbbxContinent.DataSource = dt في</string>
+    <string name="useFunctionQuestion1A">الإعلان عن المتغير dt </string>
+    <string name="useFunctionQuestion1B"> تحديد مصدر البيانات الخاصة بقائمة القارات</string>
+    <string name="useFunctionQuestion1C">الإعلان عن الثوابت </string>
+    <string name="useFunctionQuestion1D">Shown</string>
+    <string name="useFunctionQuestion2">2-يستخدم الأمر Dim dt As New Data Table في </string>
+    <string name="useFunctionQuestion3">
+	  3-Private Sub Form1_Shown (By Val sender As Object, By Val e As System.EventArgs) Handles Me. Shown
+في الكود السابق تم استخدام الحدث</string>
+    <string name="useFunctionQuestion3A">By Val sender As Object</string>
+    <string name="useFunctionQuestion3B"> By Val e As System.EventArgs</string>
+    <string name="useFunctionQuestion3C">By Val sender As Object</string>
+    <string name="useFunctionQuestion3D">By Val e As System.EventArgs</string>
+    <string name="SeconTopicNote1">	تم الإعلان عن كائنات أو متغيرات يتم إنشاءها من مجموعة تصنيفات (Classes) لكي يتم استخدامها عند التعامل مع ملف قاعدة بيانات من خلال كتابة الكود التالي
+\n
+        Public Class Form1
+\n
+        Private Sub Form1_Load (By Val Sender As Syatem.Object, By Val e AS System. EventArgs) Handles MyBase.Load
+\n
+        Dim My Connection AS New OleDb.OleDbConnection
+\n
+        Dim My Command AS New OleDb.OleDbCommand
+\n
+        Dim da AS New OleDb.OleDbDataAdapter
+\n
+        Dim dt AS New Data Table
+\n
+        End Sub
+ \n
+    End Class
+</string>
+    <string name="SeconTopicNote2">	تم اختيار الحدث Shown لأنه يحدث مرة واحدة عند ظهور النافذة لأول مرة. </string>
+    <string name="SeconTopicNote3">	تم الإعلان عن متغيران (file Path وsql) سيتم وضع بداخلها اسم ملف قاعدة البيانات (Excel Data.xls) بواسطة الكود.
+\n
+        Dim File Path, Sql AS String</string>
+    <string name="SeconTopicNote4"> تم تخصيص قيم للمتغيرات كما هو موضح بالآتي: </string>
+    <string name="SeconTopicNote5">	تخصيص قيمة للمتغير file Path على أن تكون اسم ملف قاعدة البيانات الموجود داخل. (ExcelData.xls) وسط التخزين بواسطة الكود
+\n
+        File Path=” Excel Data.xls”</string>
+    <string name="SeconTopicNote6">تخصيص قيمة للمتغير sql على أن تكون استدعاء أسماء القارات الموجودة داخل ورقة العمل Sheet1 في ملف قاعدة البيانات (Excel Data.xls) بواسطة الكود
+\n
+        ” [Sheet1$] from القارة Sql =” Select </string>
+    <string name="SeconTopicNote7">	تخصيص القيمة المستخدمة لقناة الاتصال للخاصية (Connection String) بواسطة الكود
+\n
+        MyConnection.ConnectionString = "Provider=Microsoft.Jet. Oledb.4.0; Data Source='" and File Path and "‘; Extended Properties=Excel 8.0"
+</string>
+    <string name="SeconTopicNote8">⦁	فتح قناة الاتصال باستخدام الوسيلة (Open) بواسطة الكود
+\n
+        MyConnection.Open()
+</string>
+    <string name="SeconTopicNote9">	تخصيص القيمة المستخدمة للأمر بجملة Select من خلال الخاصية (Command Text)
+\n
+        MyCommand.Connection = My Connection
+\n
+        MyCommand.CommandText = Sql
+</string>
+    <string name="SeconTopicNote10">تخصيص القيمة المستخدمة للمتغير da بالخاصية (Select Command).
+\n
+        da. Select Command = My Command
+</string>
+    <string name="SeconTopicNote11">	استخدام المتغير da للخاصية ( (Fill في ملء جدول البيانات (dt).
+\n
+da. Fill(dt)
+</string>
+    <string name="SeconTopicNote12">تخصيص مصدر البيانات المستخدم لملء الأداة (Combo Box) بالبيانات.
+\n
+        cmbbxContinent.DataSource = dt
+</string>
+    <string name="SeconTopicNote13">	ملء الأداة (Combo Box) من جدول البيانات بالعمود الأول منها.
+  \n
+        cmbbxContinent.DisplayMember = dt. Columns (0). To String
+</string>
+    <string name="SecondTopicNote14">	بعد كتابة الكود وعمل Run ثم النقر على الأداة (Combo Box) ستظهر جميع القارات الموجودة في العمود الأول من جدول البيانات كما بالشكل التالي. </string>
+    <string name="SecondTopicNote15">يمكن التعديل في الكود لتجنب تكرار اسماء القارات باستبدال السطر:
+\n
+
+ From[Sheet1$]” القارة sql=” Select
+\n
+    بالسطر:
+\n
+    From[Sheet1$]"  القارة sql=” Select distinct
+\n
+    بعد عمل Run ثم النقر على الأداة (Combo Box) ستظهر جميع القارات الموجودة في العمود الأول من جدول البيانات بدون تكرار كما بالشكل التالي
+</string>
+    <string name="SecondTopicNote16">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة استكملي تصميم خريطتك الذهنية الإلكترونية من خلال تفريع الفروع الثانوية لخريطتك الذهنية وكتابة الكلمات الثانوية المرتبطة بالفروع الرئيسية.</string>
+    <string name="SecondTopicActivity">استكملي تصميم مشروع الاطلس العربي الإلكتروني من خلال تنفيذ الآتي: -</string>
+    <string name="SecondTopicActivity1">	افتحي نافذة الكود واكتبي كود الإعلان عن المتغيرات المستخدمة في المشروع</string>
+    <string name="SecondTopicActivity2">	اكتبي كود البرمجة اللازم لاسترجاع بيانات عمود "القارة" داخل الـ Combo Box من ملف Excel باسم AtlasData.xls</string>
+    <string name="SecondTopicquestionTrueAndFalse">اختر الاجابه الصحيحه:</string>
+    <string name="SecondTopicquestionTrueAndFalse1">	يتم فتح قناة اتصال بين البرنامج الذي يتم إنشاءه بلغة V.B.net وملف Excel باستخدام أدوات      ADO.NET    ( )</string>
+    <string name="SecondTopicquestionTrueAndFalse2">	يستخدم المتغير من نوع OleDbConnection في اغلاق قناة الاتصال التي تم فتحها    ( )</string>
+    <string name="SecondTopicquestionTrueAndFalse3">	يتم الاعلان عن الدالة Function باستخدام كلمة Sub                                    ( )</string>
+    <string name="SecondTopicquestionTrueAndFalse4">	يمكن إنشاء متغير من النوع Data Table في الذاكرة يحفظ به البيانات التي يتم احضارها من ملف البيانات ( )</string>
+    <string name="SecondTopicquestionTrueAndFalse5">	يعمل المتغير dt كمحول للبيانات من ملف Excel الى البرمجية       ( )</string>
+    <string name="SecondTopicquestionTrueAndFalse6">	معالج الحدثEvent Handler عبارة عن الحدث الذي يستدعى عند وقوع أجراء ما        ( )</string>
+    <string name="SecondTopicquestionTrueAndFalse7">	يستخدم الأمر Dim File Path,SQL As String للإعلان عن نوع البيانات الرقمية      ( )</string>
+    <string name="SecondTopicquestioMCQ1">يقوم المتغير ........... بتنفيذ استعلام بموجبة يتم الحصول على البيانات من ملف Excel.
+</string>
+    <string name="SecondTopicquestioMCQ1A">da</string>
+    <string name="SecondTopicquestioMCQ1B">My Command</string>
+    <string name="SecondTopicquestioMCQ1C">dt</string>
+    <string name="SecondTopicquestioMCQ1D">My Connection</string>
+    <string name="SecondTopicquestioMCQ2">الخاصية................يظهر أثرها بعد عمل Start Debugging.</string>
+    <string name="SecondTopicquestioMCQ2A">Back Color</string>
+    <string name="SecondTopicquestioMCQ2B">Show in Taskbar</string>
+    <string name="SecondTopicquestioMCQ2C">Text</string>
+    <string name="SecondTopicquestioMCQ2D">Fore Color</string>
+    <string name="SecondTopicquestioMCQ3">	تستخدم لغة................لأنشاء قواعد البيانات في الفيجوال بيسك دوت نت  </string>
+    <string name="SecondTopicquestioMCQ3A">SQL</string>
+    <string name="SecondTopicquestioMCQ3B">da.fill(dt)</string>
+    <string name="SecondTopicquestioMCQ3C">Ole Db</string>
+    <string name="SecondTopicquestioMCQ3D">Class</string>
+    <string name="SecondTopicquestioMCQ4">لاسترجاع جميع السجلات الموجودة بجدول البيانات Tabel1 يتم كتابة الامر.............</string>
+    <string name="SecondTopicquestioMCQ4A">From tabel1القارةSelect Distinct</string>
+    <string name="SecondTopicquestioMCQ4B">From tabel1القارةSelect</string>
+    <string name="SecondTopicquestioMCQ4C">Select Count (*) from tabel1</string>
+    <string name="SecondTopicquestioMCQ4D">Select*from tabel1</string>
+    <string name="SecondTopicquestioMCQ5">	يستخدم الأمر ............ للحصول على عدد الدول الموجودة في جدول البياناتTabel1 بواسطة جملة Select.</string>
+    <string name="SecondTopicquestioMCQ5A">Select Count (*) From Table1</string>
+    <string name="SecondTopicquestioMCQ5B">from tabel1 الدولة Select</string>
+    <string name="SecondTopicquestioMCQ5C">Select * From Table1</string>
+    <string name="SecondTopicquestioMCQ5D">Select Count From Table1 Where</string>
+    <string name="SecondTopicquestioMCQ6">	يتم الإعلان عن المتغيرات بواسطة الأمر............</string>
+    <string name="SecondTopicquestioMCQ6A">Consent</string>
+    <string name="SecondTopicquestioMCQ6B">Dim</string>
+    <string name="SecondTopicquestioMCQ6C">Sub</string>
+    <string name="SecondTopicquestioMCQ6D">Privet</string>
+    <string name="SecondTopicquestioMCQ7">	الحدث....... الخاص بنافذة النموذجForm1  يتم تنفيذه مرة واحدة عند ظهور النافذة لأول مرة</string>
+    <string name="SecondTopicquestioMCQ7A">Shown</string>
+    <string name="SecondTopicquestioMCQ7B">Load</string>
+    <string name="SecondTopicquestioMCQ7C">Enter</string>
+    <string name="SecondTopicquestioMCQ7D">Click</string>
+    <string name="SecondTopicquestioMCQ8">يحتوي ...... على مجموعة من التصنيفات (Classes) التى يمكن استخدامها عند الحاجة اليها.</string>
+    <string name="SecondTopicquestioMCQ8A">OleDb</string>
+    <string name="SecondTopicquestioMCQ8B">Events</string>
+    <string name="SecondTopicquestioMCQ8C">Namespace</string>
+    <string name="SecondTopicquestioMCQ8D">Object</string>
+    <string name="SecondTopicquestioMCQ9">	جمله ........... تستخدم في استرجاع مجموعة من السجلات من جدول البيانات.</string>
+    <string name="SecondTopicquestioMCQ9A">Select</string>
+    <string name="SecondTopicquestioMCQ9B">OleDb</string>
+    <string name="SecondTopicquestioMCQ9C">Provider</string>
+    <string name="SecondTopicquestioMCQ9D">Data Source</string>
+    <string name="SecondTopicquestioMCQ10">	تستخدم الخاصية Display Member لتحديد قيمة العناصر التي سوف تعرضها أداة.....</string>
+    <string name="SecondTopicquestioMCQ10A">Picture Box</string>
+    <string name="SecondTopicquestioMCQ10B">Label</string>
+    <string name="SecondTopicquestioMCQ10C">Button</string>
+    <string name="SecondTopicquestioMCQ10D">Combo Box</string>
+    <string name="ThirdTopicIntroduction">الهدف العام:
+ استعراض البيانات من خلال البرمجية.
+</string>
+    <string name="introductioThirdTopic1">عزيزتي الطالبة تعرفتي في الموضوع السابق على كيفية قراءة بيانات ورقة Excel بواسطة Visual Basic.Net وفتح قناة اتصال بين البرمجية وقاعدة البيانات، وخطوات الإعلان عن الدالة GetDatafromExcelSheet وكذلك الإعلان عن المتغيرات المستخدمة في المشروع.</string>
+    <string name="ThirdTopicIntroduction1">الأهداف السلوكية الخاصة بالموضوع
+عزيزتي الطالبة في نهاية دراستك للموضوع يُرجى أن تكوني قادرة على أن: -
+</string>
+    <string name="ThirdTopicWriteCodeForProject">كتابة كود المشروع</string>
+    <string name="ThirdTopicWriteCodeForProject1">عزيزتي الطالبة نستكمل في الموضوع الحالي كتابة كود المشروع الخاص ببرنامج الأطلس العربي الإلكتروني والذي يمكنك من عرض أسماء دول القارة المختارة داخل أداة التحكم الخاصة بعرض أسماء الدول.</string>
+    <string name="ThirdTopicWriteCodeForProject2">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدئي في تصميم خريطتك الذهنية من خلال وضع فكرة محورية في منتصف خريطتك الذهنية الإلكترونية.</string>
+    <string name="ThirdTopicWriteCode">كتابة كود عرض قائمة بأسماء الدول</string>
+    <string name="ThirdTopicWriteCode1">عزيزتي الطالبة لإظهار أسماء الدول الخاصة بالقارة المختارة اتبعي الخطوات التالية:</string>
+    <string name="ThirdTopicWriteCode2">	النقر المزدوج على قائمة القارات في وضع التصميم ليظهر معالج الحدث الآتي:
+\n
+        Private Sub cmbbxContinent_SelectedIndexChanged(sender As Object EventArgs) Handles
+\n
+        End Sub </string>
+    <string name="ThirdTopicWriteCode3">	اكتبي الكود الآتي حتى تظهر قائمة بأسماء الدول الخاصة بهذه القارة في قائمة cmbbxState :-
+\n
+        Private Sub cmbbxContinent_SelectedIndexChanged (sender As Object EventArgs) Handles
+\n
+        Try
+\n
+        Dim dt As New DataTable
+ \n
+        dt = GetDatafromExcelsheet("C:\Atlas\database\atlas.xls", "select الدولة from [data$]Where =القارة” ”_and Me.cmbbxcontinent.selected value and ” “")
+\n
+        Me.cmbbxstate.DataSource = dt
+\n
+        Me.cmbbxstate.DisplayMember = dt.Columns(0).ToString
+\n
+        Me.cmbbxstate.ValueMember = dt.Columns(0).ToString
+\n
+        Me.cmbbxstate.SelectedIndex = 3
+ \n
+        Me.cmbbxstate.SelectedIndex = 0
+\n
+        Catch ex As Exception
+\n
+        End Try
+\n
+        End Sub</string>
+    <string name="ThirdTopicWriteCode4">
+تم استخدام جملة Try/Catch لمنع ظهور أخطاء أثناء تشغيل البرنامج والتي تنتج عن استدعاء الحدث cmbbxContinent_SelectedIndexChanged قبل ملء قائمة القارات بأسماء القارات.
+        \n
+تم استخدام السطرين الآتيين:
+
+
+
+\n
+  Me.cmbbxstate.SelectedIndex = 3
+\n
+        Me.cmbbxstate.SelectedIndex = 0
+ بغرض استدعاء الحدث cmbbxState_SelectedIndexChanged لإظهار البيانات الخاصة بمصر. </string>
+    <string name="ThirdTopicWriteCode5">عند التشغيل نجد أن قائمة الدول كما هو موضح بالشكل الآتي:</string>
+    <string name="ThirdTopicWriteCode6">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدئي في تفريع الفروع الرئيسية لخريطتك الذهنية وكتابة الكلمات الرئيسية المرتبطة بالفكرة المحورية.</string>
+    <string name="ThirdTopicWriteCodeQuestion">عزيزتي الطالبة اجيبي على الأسئلة التالية:
+</string>
+    <string name="ThirdTopicWriteCodeQuestion1">	تستخدم جملة Private Sub في الإعلان عن ..........</string>
+    <string name="ThirdTopicWriteCodeQuestion1A">الإجراء</string>
+    <string name="ThirdTopicWriteCodeQuestion1B">الدالة</string>
+    <string name="ThirdTopicWriteCodeQuestion1C">المتغيرات </string>
+    <string name="ThirdTopicWriteCodeQuestion1D">الثوابت</string>
+    <string name="ThirdTopicWriteCodeQuestion2">⦁	في الكود السابق تم استدعاء الحدث الخاص بـــــــ.........
+</string>
+    <string name="ThirdTopicWriteCodeQuestion2A">cmbbcState</string>
+    <string name="ThirdTopicWriteCodeQuestion2B"> Cmbbxcontinent</string>
+    <string name="ThirdTopicWriteCodeQuestion2C">DataSource</string>
+    <string name="ThirdTopicWriteCodeQuestion2D">SelectedIndex</string>
+    <string name="ThirdTopicWriteCodeWithData">كتابة كود عرض بيانات الدولة المختارة</string>
+    <string name="ThirdTopicWriteCodeWithData1">	النقر المزدوج على قائمة الدول في وضع التصميم ليظهر معالج الحدث الآتي:
+\n
+        Private Sub cmbbcState_SelectedIndexChanged (sender As Object EventArgs) Handles
+\n
+        End Sub
+</string>
+    <string name="ThirdTopicWriteCodeWithData2">	اكتبي الآتي حتى تظهر بيانات الدولة التي تم اختيارها كما هو:
+\n
+        Private Sub cmbbcState_SelectedIndexChanged (sender As Object EventArgs) Handles
+\n
+        Try
+\n
+        Dim dt As New DataTable
+        dt = GetDatafromExcelsheet("C:\Atlas\database\atlas.xls",_
+ \n
+        "select * from [data$]Where =الدولة” ”and_
+\n
+        Me.cmbbxState.selected value and” “")
+ \n
+        Me.lbldc.Text = dt.Rows(0).Item(2).ToString
+ \n
+        Me.lblPorts.Text = dt.Rows(0).Item(3).ToString
+ \n
+        Me.lblWR.Text = dt.Rows(0).Item(4).ToString
+\n
+        Catch ex As Exception
+\n
+        End Try
+\n
+        End Sub
+</string>
+    <string name="ThirdTopicWriteCodeWithData3">في الكود السابق:
+\n
+        يقصد بـ Rows بالصفوف، وItems بالأعمدة في جدول بيانات إكسيل، وأرقام كل من الصفوف أوالأعمدة تبدأ من (0) حيث: Rows (0) الصف الأول، وItems (2) العمود الثالث.
+</string>
+
+    <string name="ThirdTopicWriteCodeWithData4"> عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة استكملي تصميم خريطتك الذهنية الإلكترونية من خلال تفريع الفروع الثانوية لخريطتك الذهنية وكتابة الكلمات الثانوية المرتبطة بالفروع الرئيسية.</string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio"></string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio1">	يستخدم الكود  Me.lblPorts.Text = dt.Rows(0).Item(3).ToString </string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio1A">إظهار عاصمة الدولة</string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio1B">إظهار اهم الموانئ</string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio1C">إظهار مصادر المياه</string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio1D">إظهار علم الدولة</string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio2">	يستخدم الكود  Me.lblWR.Text = dt.Rows(0).Item(4).ToString </string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio3">	يستخدم الكود Me.lbldc.Text = dt.Rows(0).Item(2).ToString في</string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio4">	في الكود السابق تم استدعاء الحدث الخاص بـــــــ.........</string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio4A">cmbbcState</string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio4B">Cmbbxcontinent</string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio4C">DataSource</string>
+    <string name="ThirdTopicWriteCodeWithDataQuestio4D">SelectedIndex</string>
+    <string name="ThirdTopicIntroduction2">تراعى الدقة العلمية في كتابة كود المشروع.</string>
+    <string name="ThirdTopicIntroduction3">	تستخدمي معالج الحدث Cmbbx Continent SelectedIndexChanged</string>
+    <string name="ThirdTopicIntroduction4">تنشئي الكود الخاص بملء أداة Combo Box بأسماء الدول</string>
+    <string name="ThirdTopicIntroduction5">	تحددي أدوات التحكم المستخدمة في عرض بيانات الدولة المختارة</string>
+    <string name="ThirdTopicIntroduction6">	تستخدمي الكود اللازم لعرض بيانات الدولة باستخدام أداة العنوان Label.</string>
+    <string name="ThirdTopicIntroduction7">	تفسري الهدف من استخدام جملة Try / Catch.</string>
+    <string name="ThirdTopicIntroduction8">	تستخدمي جملة Try / Catch لمنع حدوث الأخطاء المحتملة أثناء التشغيل</string>
+    <string name="ThirdTopicActivities">عزيزتي الطالبة استكملي تصميم مشروع الاطلس العربي الإلكتروني من خلال تنفيذ الآتي:</string>
+    <string name="ThirdTopicActivities1">اكتبي كود المشروع الخاص بملء قائمة الدول بأسماء الدول، واستخدامي جملة   Try/ Catch   لمنع ظهور أخطاء أثناء تشغيل البرنامج والتي تنتج عن استدعاء الحدث cmbbxContinent_SelectedIndexChanged قبل ملء قائمة القارات بأسماء القارات</string>
+    <string name="ThirdTopicHomeWork">ضع علامة (√) امام العبارة الصحيحة وعلامة (X) امام العبارة الخطأ:</string>
+    <string name="ThirdTopicHomeWorkTrueAndFalse1">	تستخدم الخاصية Data Source لتحديد مصدر البيانات داخل أداة التحكم Combo Box (  )</string>
+    <string name="ThirdTopicHomeWorkTrueAndFalse2">الكودMe.lbl Dc. Text=dt.Row(0). Item (2). To String يخصص قيمة العنصر الموجود في الصف الثاني والعمود الأول للخاصية Text    (    )  </string>
+    <string name="ThirdTopicHomeWorkTrueAndFalse3">يتم وضع عناصر داخل أداة التحكم (Combo Box) من خلال الخاصية Items   (   )</string>
+    <string name="ThirdTopicHomeWorkTrueAndFalse4">يمكن فتح نافذة الكود من خلال الضغط على مفتاح F3                            (    )</string>
+    <string name="ThirdTopicHomeWork1">⦁	الغرض من الكود
+ Dim dt As New Data table
+       dt=Get Data from Excel sheet ("C:\Atlas\databel\atlas.xls","select
+From where =" " and me. cmbbx continent. Selected Value and" ").[data$ ]الدول
+</string>
+    <string name="ThirdTopicHomeWork1A">وضع البيانات في أداة Combo Box</string>
+    <string name="ThirdTopicHomeWork1B">وضع البيانات في المتغير cmbbx continent</string>
+    <string name="ThirdTopicHomeWork1C">وضع البيانات في المتغير dt  </string>
+    <string name="ThirdTopicHomeWork1D">وضع البيانات في المتغير da</string>
+    <string name="ThirdTopicHomeWork2">  يتم كتابة كود................... لمنع ظهور الأخطاء اثناء تشغيل البرنامج.
+</string>
+    <string name="ThirdTopicHomeWork2A">Try/Catch</string>
+    <string name="ThirdTopicHomeWork2B">Selected Value</string>
+    <string name="ThirdTopicHomeWork2C">State Selected Index</string>
+    <string name="ThirdTopicHomeWork2D">Select Distinct</string>
+    <string name="ThirdTopicHomeWork3">تستخدم الخاصية Display Member لتحديد قيمة العناصر التي سوف تعرضها أداة ...............</string>
+    <string name="ThirdTopicHomeWork3A">Picture Box </string>
+    <string name="ThirdTopicHomeWork3B">Label</string>
+    <string name="ThirdTopicHomeWork3C">Button</string>
+    <string name="ThirdTopicHomeWork3D">Combo Box</string>
+    <string name="FourthTopicGoal">الهدف العام:
+ تهيئة واستدعاء ملفات الصور داخل البرمجية.
+</string>
+    <string name="FourthTopicGoa2">
+        الأهداف السلوكية الخاصة بالموضوع
+عزيزتي الطالبة في نهاية دراستك للموضوع يُرجى أن تكوني قادرة على أن: -
+    </string>
+    <string name="FourthTopicGoa3">	تدعمي المشروع بملفات الصور.</string>
+    <string name="FourthTopicGoa4">	تفسري سبب تشابه أسماء ملفات الاعلام والخرائط.</string>
+    <string name="FourthTopicGoa5">	تخصصي أسماء ملفات الصور بنفس أسماء الدول</string>
+    <string name="FourthTopicGoa6">	تخصصي مسار حفظ ملفات الصور </string>
+    <string name="FourthTopicGoa7">تراجعي أنواع ملفات الصور في المجلد </string>
+    <string name="FourthTopicGoa8">تناظري بين خرائط وأعلام الدول عن طريق أدوات التحكم المناظرة لها في نافذة واجهة المستخدم.</string>
+    <string name="FourthTopicGoa9">تنشئي كود عرض ملفات الصور داخل المشروع.</string>
+    <string name="FourthTopicGoal10">تستخدمي جملة Try / Catch لمنع حدوث الأخطاء المحتملة أثناء التشغيل.</string>
+    <string name="FourthTopicIntroduction"> عزيزتي الطالبة تعرفتي في الموضوع السابق على كيفية كتابة الكود الخاص بعرض أسماء الدول في القائمة الخاصة بأسماء الدول كما درستي كيفية كتابة الكود الخاص بعرض بيانات الدولة المختارة على أدوات التحكم الخاصة بعرض بيانات الدولة.</string>
+    <string name="FourthTopicIntroduction1">عزيزتي الطالبة نستكمل في هذا الموضوع كتابة كود المشروع الخاص بعرض خريطة وعلم الدولة المختارة لبرنامج الأطلس العربي الإلكتروني، وقبل البدء في كتابة كود البرمجة الخاص بعرض صور اعلام وخرائط الدول ينبغي ضبط أسماء ملفات صور (أعلام وخرائط) الدول بنفس اسماء الدول الظاهرة في قائمة اسماء الدول.</string>
+    <string name="FourthTopicIntroduction2">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدئي في تصميم خريطتك الذهنية من خلال وضع فكرة محورية في منتصف خريطتك الذهنية الإلكترونية.</string>
+    <string name="FourthTopicIntroduction3">بعض أسماء ملفات أعلام الدول في مجلد Flags
+ \n
+        .pngمصر        .pngتونس			 .pngالسعودية</string>
+    <string name="FourthTopicIntroduction4">بعض أسماء ملفات خرائط الدول في مجلد Maps
+\n
+ .pngمصر         .pngتونس           .pngالسعودية
+</string>
+    <string name="FourthTopicIntroduction5">لاحظي تشابه أسماء ملفات الصور في المجلدين وذلك حتى يسهل استنتاج أسمائها عند تخصيص هذه الصور للأداتين picbxFlag وpicbxMap كما تم كتابتها في جدول بيانات Excel.</string>
+    <string name="FourthTopicIntroduction6">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدئي في تفريع الفروع الرئيسية لخريطتك الذهنية وكتابة الكلمات الرئيسية المرتبطة بالفكرة المحورية.</string>
+    <string name="FourthTopicWriteCode1"> عزيزتي الطالبة لكي يتم عرض خريطة وعلم الدولة المختارة يجب كتابة الكود الآتي في معالج الحدث cmbbxState_SelectedIndexChanged
+Dim picName As String = dt.Rows(0).Item(1).ToString and ".png"
+        \n
+Me.picbxFlag.Image = Image.FromFile("C:\Atlas\flags\" and picName)
+        \n
+Me.picbxMap.Image = Image.FromFile("C:\Atlas\maps\" and picName)</string>
+    <string name="FourthTopicWriteCode">كتابة كود عرض خريطة وعلم الدولة المختارة</string>
+    <string name="FourthTopicWriteCode2">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة استكملي تصميم خريطتك الذهنية الإلكترونية من خلال تفريع الفروع الثانوية لخريطتك الذهنية وكتابة الكلمات الثانوية المرتبطة بالفروع الرئيسية.</string>
+    <string name="FourthTopicWriteCodeQuestion1">1-المتغير.....</string>
+    <string name="FourthTopicWriteCodeQuestion1A">picName</string>
+    <string name="FourthTopicWriteCodeQuestion1B">picbxFlag</string>
+    <string name="FourthTopicWriteCodeQuestion1C">picbxMap</string>
+    <string name="FourthTopicWriteCodeQuestion1D">WMplayer</string>
+    <string name="FourthTopicWriteCodeQuestion2">2-أداة التحكم ......... والتي تعرض علم الدولة</string>
+    <string name="FourthTopicWriteCodeQuestion3">	3-أداة التحكم ........... والتي تعرض خريطة الدولة</string>
+    <string name="FourthTopicNote1">يجب تسمية ملفات صور أعلام وخرائط الدول بنفس اسم الدولة حتى يسهل استنتاج أسمائها عند تخصيص هذه الصور للأداتين picbxFlag وpicbxMap كما تم كتابتها في جدول بيانات Excel.</string>
+    <string name="FourthTopicNote2">يتم كتابة الكود الخاص بعرض علم وخريطة الدولة المختارة في معالج الحدث cmbbxState_SelectedIndexChanged</string>
+    <string name="FourthTopicNote3">	تم استخدام الدالة From File لتخصيص صورة من ملف</string>
+    <string name="FourthTopicActivity1">عزيزتي الطالبة استكملي كتابة كود المشروع من خلال كتابة الكود اللازم لعرض علم الدولة وخريطتها باستخدام أداة Picture Box.</string>
+    <string name="FourthTopicHomeWorkQuestionTrueFalse1">تستخدم الدالة From File في تخصيص صورة من ملف   (   ) </string>
+    <string name="FourthTopicHomeWorkQuestionTrueFalse2">	عند كتابة اسماء ملفات الصور داخل مجلد Maps ومجلد Flags لا يشترط تشابه اسماء ملفات الصور (  )</string>
+    <string name="FourthTopicHomeWorkQuestionTrueFalse3">	يستخدم الأمر PictureBox.Image = Image.FromFile (“PictureFilename.png”) لإدراج صورة داخل أداة التحكم Picture Box  ( )</string>
+    <string name="FourthTopicHomeWorkQuestionTrueFalse4">عند كتابة الكود الخاص بعرض خريطة وعلم الدولة لابد من تحديد مسار حفظ ملف الصور (   )    </string>
+    <string name="FourthTopicHomeWorkQuestion1">1-	الغرض من الكود التالي:
+Dim picName As String = dt.Rows(0).Item(1).ToString and ".png"
+</string>
+    <string name="FourthTopicHomeWorkQuestion1A">تخصيص محتوى الصف الثاني والعمود الأول في جدول البيانات dt مضاف اليه امتداد ملف Png.</string>
+    <string name="FourthTopicHomeWorkQuestion1B">تخصيص محتوى الصف الأول والعمود الثاني في جدول البيانات dt مضاف اليه امتداد ملف Png.</string>
+    <string name="FourthTopicHomeWorkQuestion1C">تخصيص محتوى الصف الأول والعمود الثاني في جدول البيانات dt مضاف اليه امتداد ملف To String</string>
+    <string name="FourthTopicHomeWorkQuestion1D">تخصيص محتوى الصف الثاني والعمود الأول في جدول البيانات dt مضاف اليه امتداد ملف To String</string>
+    <string name="FourthTopicHomeWorkQuestion2">	الكود التالي:
+Me.picbxFlag.Image = Image.FromFile("C:\Atlas\flags\" and picName)
+</string>
+    <string name="FourthTopicHomeWorkQuestion2A">الخاصية Image للأداة PicFlag</string>
+    <string name="FourthTopicHomeWorkQuestion2B">الخاصية From File للأداة PicFlag</string>
+    <string name="FourthTopicHomeWorkQuestion2C">الخاصية Image للأداة From File</string>
+    <string name="FourthTopicHomeWorkQuestion2D">الخاصية Picture Box للأداة Image</string>
+    <string name="FifthTopicGoal1">الهدف العام:
+ تهيئة واستدعاء ملفات الصوت داخل البرمجية.</string>
+    <string name="FifthTopicGoal2">تميلي الى استخدام ملفات الصوت في البرمجة.</string>
+    <string name="FifthTopicGoal3">تخصصي أسماء ملفات الصوت بنفس أسماء الدول.</string>
+    <string name="FifthTopicGoal4">تخصصي مسار حفظ ملفات الصوت.</string>
+    <string name="FifthTopicGoal5">	تحددي مكان الإعلان عن المتغيرات على مستوى التصنيف أو الإجراء.</string>
+    <string name="FifthTopicGoal6">تعلني عن المتغير anthemMp3.</string>
+    <string name="FifthTopicGoal7">تستخدمي ملف صوت السلام الوطني داخل البرمجية</string>
+    <string name="FifthTopicGoal8">تنشئي الكود الخاص بتشغيل أو إيقاف ملف صوت عند الضغط على زر أمر</string>
+    <string name="FifthTopicIntroduction1">عزيزتي الطالبة درستي في الموضوع السابق كيفية كتابة الكود الخاص بعرض خريطة وعلم الدولة المختارة من القائمة الخاصة بأسماء الدول على أدوات التحكم الخاصة بعرض خريطة وعلم الدولة كما درستي كيفية ضبط أسماء ملفات الصور.
+</string>
+    <string name="FifthTopicIntroduction2">عزيزتي الطالبة نستكمل في هذا الموضوع كتابة كود المشروع الخاص بتشغيل ملف صوت السلام الوطني للدولة المختارة لبرنامج الأطلس العربي الإلكتروني، وقبل البدء في كتابة كود البرمجة الخاص بتشغيل ملف صوت السلام للدولة ينبغي ضبط أسماء ملفات الصوت الخاصة بالسلام الوطني للدول بنفس الأسماء الظاهرة في قائمة أسماء الدول.
+</string>
+    <string name="FifthTopicIntroduction3">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدئي في تصميم خريطتك الذهنية من خلال وضع فكرة محورية في منتصف خريطتك الذهنية الإلكترونية.
+أسماء بعض أسماء ملفات الصوت الخاصة بالسلام الوطني في مجلد Anthem
+ \n
+        .mp3مصر        .mp3تونس            .mp3السعودية
+</string>
+    <string name="FifthTopicWriteCode">كتابة كود تشغيل السلام الوطني
+</string>
+    <string name="FifthTopicWriteCode1">عزيزتي الطالبة اكتبى الكود الآتي في معالج الحدث cmbbxState_SelectedIndexChanged لتشغيل ملف صوت السلام الوطني للدولة كما هو موضح بالكود الآتي:
+\n
+        Me. anthemMp3 = "C:\Users\hany\Desktop\Atlas\anthem\" and dt. Rows (0). Item (1). To String and ".mp3"
+\n
+        Me. WMPlayer.URL = anthemMp3
+\n
+        Me. btnStop_play. Text = "إيقاف تشغيل السلام الوطني"
+</string>
+    <string name="FifthTopicWriteCode2">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدئي في تفريع الفروع الرئيسة لخريطتك الذهنية وكتابة الكلمات الرئيسة المرتبطة بالفكرة المحورية.</string>
+    <string name="FifthTopicWriteCodeForControl">كتابة كود التحكم في تشغيل/ إيقاف السلام الوطني</string>
+    <string name="FifthTopicWriteCodeForControl1">عزيزتي الطالبة للتحكم في تشغيل أو إيقاف ملف صوت السلام الوطني اكتبي الكود التالي في معالج الحدث btnStop_play_Click الخاص بالزر btnStop_Play :-
+    \n
+        Private Sub btnStop_play_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnStop_play.Click
+    \n
+        If btnStop_play.Text = "إيقاف تشغيل السلام الوطني" Then
+\n
+        Me. WMPlayer.close()
+\n
+        Me.btnStop_play.Text = "تشغيل السلام الوطني"
+ \n
+        Else
+\n
+        Me. WMPlayer.URL = anthemMp3
+\n
+        Me. btnStop_play.Text = "إيقاف تشغيل السلام الوطني"
+\n
+        End If
+\n
+        End Sub
+</string>
+    <string name="FifthTopicWriteCodeForControl2">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة استكملي تصميم خريطتك الذهنية الإلكترونية من خلال تفريع الفروع الثانوية لخريطتك الذهنية وكتابة الكلمات الثانوية المرتبطة بالفروع الرئيسة.</string>
+    <string name="FifthTopicWriteCodeForControlQuestion1">استدعاء معالج الحدث.....</string>
+    <string name="FifthTopicWriteCodeForControlQuestion1A">cmbbxState</string>
+    <string name="FifthTopicWriteCodeForControlQuestion1B"> WMPlayer</string>
+    <string name="FifthTopicWriteCodeForControlQuestion1C"> btnStop_play_Click</string>
+    <string name="FifthTopicWriteCodeForControlQuestion1D">anthem Mp3 </string>
+    <string name="FifthTopicWriteCodeForControlQuestion2">استخدام جملة التكرار...... </string>
+    <string name="FifthTopicWriteCodeForControlQuestion2A">if ..then…else</string>
+    <string name="FifthTopicWriteCodeForControlQuestion2B">if </string>
+    <string name="FifthTopicWriteCodeForControlQuestion2C">Do While</string>
+    <string name="FifthTopicWriteCodeForControlQuestion2D">if.. then</string>
+    <string name="FifthTopicWriteCodeForControlQuestion3">تحديد قيمة للخاصية...... </string>
+    <string name="FifthTopicWriteCodeForControlQuestion3A">text</string>
+    <string name="FifthTopicWriteCodeForControlQuestion3B">Name</string>
+    <string name="FifthTopicWriteCodeForControlQuestion3C">font</string>
+    <string name="FifthTopicWriteCodeForControlQuestion3D">Text Align</string>
+    <string name="FifthTopicRemember1">	 ينبغي التأكد من تسمية ملفات الصوت الخاصة بالسلام الوطني لكل دولة. </string>
+    <string name="FifthTopicRemember2">	أنه تم الإعلان عن متغير تحت اسم anthemMp3 على مستوى التصنيف، وذلك لتخزين اسم ومسار ملف الصوت حتى يمكن استخدامه في أكثر من معالج حدث.</string>
+    <string name="FifthTopicRemember3">	تم تحديد مسار ملف السلام الوطني من خلال كتابة الكود
+anthemMp3 = "C:\Atlas\anthem\" and dt.Rows(0).Item(1).ToString and ".mp3"</string>
+    <string name="FifthTopicRemember4">	تم كتابة الكود الخاص بالتحكم في تشغيل/إيقاف تشغيل السلام الوطني في معالج الحدث btnStop_play_Click الخاص بالزر btnStop_Play</string>
+    <string name="FifthTopicActivity1">عزيزتي الطالبة استكملى كتابة كود المشروع من خلال كتابة الكود الخاص بتشغيل أو إيقاف ملف صوت السلام الوطني للدولة عند الضغط على زر أمرButton.</string>
+    <string name="FifthTopicHomeWorkQuestionTrueFalse1">	عند كتابة الكود الخاص بعرض السلام الوطني للدولة لابد من تحديد مسار حفظ ملف الصوت(  )</string>
+    <string name="FifthTopicHomeWorkQuestionTrueFalse2">	يتم الاعلان عن المتغير anthem Mp3 داخل نطاق معالج الحدث cmbbxState_SelectedIndexChanged (   )   </string>
+    <string name="FifthTopicHomeWorkQuestionTrueFalse3">	يتم استخدام جملة الشرط If Then Else لاختيار بين بديلين (   )   </string>
+    <string name="FifthTopicHomeWorkQuestion1">	Me. btnStop_ Play. Text = " إيقاف تشغيل السلام الوطني"
+الكود السابق مسئول عن</string>
+    <string name="FifthTopicHomeWorkQuestion1A">إيقاف تشغيل السلام الوطني</string>
+    <string name="FifthTopicHomeWorkQuestion1B">تشغيل السلام الوطني</string>
+    <string name="FifthTopicHomeWorkQuestion1C">تشغيل / إيقاف السلام الوطني</string>
+    <string name="FifthTopicHomeWorkQuestion1D">تحديد مسار ملف السلام الوطني</string>
+    <string name="FifthTopicHomeWorkQuestion2">	Me. btnStop_ Play. Text =" تشغيل السلام الوطني"
+الكود السابق مسئول عن
+</string>
+    <string name="FifthTopicHomeWorkQuestion3">	Me. WMPlayer. URL = anthem Mp3
+الكود السابق يستخدم في
+</string>
+    <string name="FifthTopicHomeWorkQuestion3A">تخصيص مسار ملف السلام الوطني</string>
+    <string name="FifthTopicHomeWorkQuestion3B">الاعلان عن ملف السلام الوطني</string>
+    <string name="FifthTopicHomeWorkQuestion3C">تخصيص قيمة ملف السلام الوطني</string>
+    <string name="FifthTopicHomeWorkQuestion3D">	تحديد امتداد ملف السلام الوطني</string>
+    <string name="SixthTopicGoal1">الهدف العام:
+تهيئة واستدعاء ملفات الفيديو داخل البرمجية.</string>
+    <string name="SixthTopicGoal2">الأهداف السلوكية الخاصة بالموضوع
+عزيزتي الطالبة في نهاية دراستك للموضوع يُرجى أن تكوني قادرة على أن: -
+</string>
+    <string name="SixthTopicGoal3">تشاركي في تصميم مقاطع الفيديو</string>
+    <string name="SixthTopicGoal4">	تحددي مسار حفظ ملفات الفيديو. </string>
+    <string name="SixthTopicGoal5">	تستخدمي ملفات الفيديو داخل البرمجية</string>
+    <string name="SixthTopicGoal6">	تختاري زر امر Button لواجهة البرنامج</string>
+    <string name="SixthTopicGoal7">	تعيني خصائص زر الامر Button.</string>
+    <string name="SixthTopicGoal8">	تنشئي الكود الخاص بتشغيل أو إيقاف ملف فيديو.</string>
+    <string name="SixthTopicGoal9">تختبري البرمجية قبل عمل النسخة التنفيذية</string>
+    <string name="SixthTopicGoal10">تنشئي نسخة تنفيذية Executable File (EXE) للبرمجية.</string>
+    <string name="SixthTopicIntroduction1">عزيزتي الطالبة تعرفتي في الموضوع السابق على خطوات الإعلان عن المتغيرanthemMp3 وتحديد مسار حفظ ملف صوت السلام الوطني، كما تعرفتي على كيفية كتابة كود التحكم في تشغيل وإيقاف تشغيل ملف صوت السلام الوطني.</string>
+    <string name="SixthTopicIntroduction2">ونستكمل في الموضوع الحالي كتابة كود المشروع الخاص بعرض فيديو المعالم السياحية للدولة وعمل نسخة تنفيذية Executable File (exe) للبرنامج.</string>
+    <string name="SixthTopicIntroduction3">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدئي في تصميم خريطتك الذهنية من خلال وضع فكرة محورية في منتصف خريطتك الذهنية الإلكترونية.</string>
+    <string name="SixthTopicIntroduction4"> عزيزتي الطالبة قبل البدء في كتابة الكود الخاص بعرض فيديو المعالم السياحية للدولة المختارة يجب ضبط أسماء ملفات الفيديو الخاصة بالمعالم السياحية للدول بنفس أسماء الدول الظاهرة في قائمة اسماء الدول.</string>
+    <string name="SixthTopicIntroduction5">بعض أسماء ملفات الفيديو الخاصة بالمعالم السياحية في مجلد Videos
+\n
+ .wmvمصر     .wmvتونس            .wmvالسعودية
+</string>
+    <string name="SixthTopicIntroduction6">⦁	إضافة زر أمر Button لواجهة البرنامج بحيث تكون قيمة الخاصية Name له
+"btnPlayVideos” وتكون قيمة الخاصية Text "معالم سياحية."
+</string>
+    <string name="SixthTopicWriteCode">كتابة كود التحكم في الفيديو</string>
+    <string name="SixthTopicWriteCode1">عزيزتي الطالبة للتحكم في تشغيل او إيقاف تشغيل فيديو المعالم السياحية للدولة المختارة اكتبي الكود الآتي في معالج الحدث btnPlayVideos_Click الخاص بزر btnPlayVideos لتشغيل ملف فيديو المعالم السياحية للدولة كما هو موضح بالكود الآتي:
+\n
+        Private Sub btnPlayVideos_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPlayVideos.Click
+\n
+        If btnPlayVideos.Text = "سياحية معالم" Then
+\n
+        Me.WMPlayer.Visible = True
+\n
+        Me.WMPlayer.URL = "C:\Atlas\videos\" and cmbbxState.SelectedValue.ToString and ".wmv"
+\n
+        Me.btnPlayVideos.Text = "العرض إيقاف"
+        \n
+        Else
+ \n
+        Me. WMPlayer.Visible = False
+\n
+        Me.WMPlayer.close()
+\n
+        Me.btnPlayVideos.Text = "سياحية معالم"
+\n
+        End If
+\n
+        End Sub
+</string>
+    <string name="SixthTopicWriteCode2">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة ابدئي في تفريع الفروع الرئيسة لخريطتك الذهنية وكتابة الكلمات الرئيسة المرتبطة بالفكرة المحورية.</string>
+    <string name="SixthTopicWriteCodeQyestion1">استدعاء معالج الحدث ..........</string>
+    <string name="SixthTopicWriteCodeQyestion2">استخدام جملة التكرار....................</string>
+    <string name="SixthTopicWriteCodeQyestion3">تحديد قيمة للخاصية Text والخاصية.....</string>
+    <string name="SixthTopicWriteCodeQyestion3A">true</string>
+    <string name="SixthTopicWriteCodeQyestion3B">visible</string>
+    <string name="SixthTopicWriteCodeQyestion3C">font</string>
+    <string name="SixthTopicWriteCodeQyestion3D">false</string>
+    <string name="SixthTopicMakeExe">عمل نسخة تنفيذية exe من المشروع</string>
+    <string name="SixthTopicMakeExe1">عزيزتي الطالبة بعد الانتهاء من اعداد المشروع تأتى مرحلة عمل نسخة تنفيذية EXE من البرنامج ليتم التعامل معها وتثبيتها على أي جهاز حاسوب من خلال اتباع الخطوات التالية:</string>
+    <string name="SixthTopicMakeExe2">	الضغط Click يمين على اسم المشروع داخل نافذة نموذج الحل Solution Explorer.</string>
+    <string name="SixthTopicMakeExe3">	نختار من القائمة المختصرة Properties ليظهر الصندوق الحواري التالي </string>
+    <string name="SixthTopicMakeExe4">	من التبويب Application نحدد الاتي</string>
+    <string name="SixthTopicMakeExe5">	اسم البرنامج Assembly name.</string>
+    <string name="SixthTopicMakeExe6">	 نوع التطبيق Application type.</string>
+    <string name="SixthTopicMakeExe7">	شكل أيقونة البرنامج Icon.</string>
+    <string name="SixthTopicMakeExe8">	من التبويب Compile نحدد مسار حفظ البرنامج Build Out Put Path</string>
+    <string name="SixthTopicMakeExe9">من التبويب Publish نضغط على الاختيار Publish Now ليتم الانتهاء من تنفيذ النسخة التنفيذية EXE</string>
+    <string name="SixthTopicMakeExe10">عزيزتي الطالبة من خلال اطلاعك على المعلومات السابقة استكملي تصميم خريطتك الذهنية الإلكترونية من خلال تفريع الفروع الثانوية لخريطتك الذهنية وكتابة الكلمات الثانوية المرتبطة بالفروع الرئيسة.</string>
+    <string name="SixthTopicNote1">	ينبغي التأكد من تسمية ملفات الفيديو الخاصة بالمعالم السياحية لكل دولة.</string>
+    <string name="SixthTopicNote2">إظهار أنواع ملفات فيديو المعالم السياحية. </string>
+    <string name="SixthTopicNote3">	معرفة مسار حفظ ملفات فيديو المعالم السياحية.</string>
+    <string name="SixthTopicNote4">	تم استخدام الخاصية Selected Value بالأداة cmbbxState وذلك للحصول على اسم الدولة حتى يمكن تعيين اسم ملف الفيديو ومساره.</string>
+    <string name="SixthTopicNote5">	تم عرض الأداة WMPlayer بجعل الخاصية Visible قيمتها True حتى يمكن رؤية ملف الفيديو على الشاشة.</string>
+    <string name="SixthTopicNote6">يمكن إيقاف أو تشغيل ملف الفيديو من خلال زر btnPlayVideos  . </string>
+    <string name="SixthTopicActivity1">عزيزتي الطالبة استكملي تصميم المشروع من خلال تنفيذ الآتي:</string>
+    <string name="SixthTopicActivity2">	اكتبي كود المشروع الخاص بتشغيل/ايقاف فيديو المعالم السياحية. </string>
+    <string name="SixthTopicActivity3">صممي نسخة تنفيذية EXE للمشروع.</string>
+    <string name="SixthTopiHomeWorkQuestionTrueFalse1">	يتم عمل نسخة تنفيذية EXE من خلال الضغط على مفتاح F5 ( )</string>
+    <string name="SixthTopiHomeWorkQuestionTrueFalse2">	تستخدم الخاصية Selected Value لتعيين اسم ملف الفيديو ومساره ( )</string>
+    <string name="SixthTopiHomeWorkQuestionTrueFalse3">يستخدم الكود Me. WMPlayer. Close ( )  في اغلاق أداة WMPlayer واخفائها من واجهه البرنامج ( ) </string>
+    <string name="SixthTopiHomeWorkQuestionTrueFalse4">	لإخفاء أداة WMPlayer من واجهه البرنامج نقوم بتخصيص القيمة False للخاصية Enabled( )</string>
+    <string name="SixthTopiHomeWorkQuestion1">	الغرض من الكود التالي
+\n
+        Me. WMPlayer. Visible= True
+</string>
+    <string name="SixthTopiHomeWorkQuestion1A">عرض أداة WMPlayer على واجهه المستخدم</string>
+    <string name="SixthTopiHomeWorkQuestion1B">تمكين المستخدم من التعامل مع أداة WMPlayer</string>
+    <string name="SixthTopiHomeWorkQuestion1C">تشغيل ملف الفيديو داخل أداة WMPlayer</string>
+    <string name="SixthTopiHomeWorkQuestion1D">ايقاف تشغيل الفيديو داخل أداة WMPlayer</string>
+    <string name="SixthTopiHomeWorkQuestion2">	الغرض من الكود التالي
+\n
+        Me. WMPlayer. Visible= “C:\Atlas\Videos\”
+</string>
+    <string name="SixthTopiHomeWorkQuestion2A">تحديد مسار ملف الفيديو </string>
+    <string name="StartigicPlanDefine">تعريف باستراتيجية الخرائط الذهنية الإلكترونية.</string>
+    <string name="StartigicPlanDefine1">
+        الخرائط الذهنية الإلكترونية هي إحدى استراتيجيات التعلم النشط التي تعمل على ترتيب وتنظيم المعلومات والأفكار في صورة بصرية تساعد الذهن على تذكرها واسترجاعها بالإضافة إلى توليد أفكار جديدة غير تقليدية، أثناء تعلم لغة البرمجة VisualBasic.net ويتم إعدادها باستخدام برامج الحاسوب مثل Edraw Mind Map، I Mind Map، X Mind 10.</string>
+    <string name="StartigicPlanWhyYouUseMap">لماذا عليك استخدام الخرائط الذهنية الإلكترونية؟</string>
+    <string name="StartigicPlanWhyYouUseMap1">عزيزتي الطالبة ان استخدامك لاستراتيجية الخرائط الذهنية الإلكترونية قد يساعدك على الاستفادة في الاحتفاظ بالمعلومات لأطول فترة ممكنة وذلك لما تمتاز به الخرائط الذهنية الإلكترونية حيث تقوم فكرة الخرائط الذهنية الإلكترونية على أساس ربط المفاهيم والمصطلحات التي ترتبط مع بعضها البعض وتمثيلها في شكل بصري، وتبدا من الفكرة الرئيسية وتتفرع منها الأفكار الأقل عمومية حتى تكتمل كافة المفاهيم المرتبطة بها، وتتفرع منها الأفكار في جميع الاتجاهات معتمدة في ذلك على طريقة عمل المخ، مما يساعد في تحسين عمل واستدعاء المعلومات السابقة بصورة افضل واسرع.</string>
+    <string name="StartigicPlanusfulness"> فوائد استخدامك للخرائط الذهنية الإلكترونية</string>
+    <string name="StartigicPlanusfulness1">  عزيزتي الطالبة ان استخدام لاستراتيجية الخرائط الذهنية الإلكترونية قد يساعدك على الاستفادة من وظائف شقي المخ الأيمن والايسر من خلال احتواء الخرائط الذهنية الالكترونية على صور ورسومات والوان ونصوص مما يساعد على عمل شقي المخ، كذلك يمكن عمل التلخيصات لموضوعات التعلم فمن خلال استخدام الخرائط الذهنية الإلكترونية يمكنك عزيزتي الطالبة تلخيص موضوع التعلم في ورقة واحدة تشتمل على جميع عناصر الموضوع.</string>
+    <string name="StartigicPlanProgram">	البرامج التي تستخدم في تصميم الخرائط الذهنية الإلكترونية</string>
+    <string name="StartigicPlanProgram1">عزيزتي الطالبة هناك العديد من البرامج التي تساعدك في تصميم الخرائط الذهنية الإلكترونية ومنها على سبيل المثال
+\n
+        I mind Map، Mind Master ، Mind Map ، Edraw Mind ، X Mind
+</string>
+    <string name="StartigicPlanTools">أدوات رسم الخرائط الذهنية الإلكترونية:</string>
+    <string name="StartigicPlanTools1">الأسهم: تستخدم لربط الأفكار الرئيسية بالفكرة المحورية وكذلك لربط الأفكار الفرعية بالأفكار الثانوية.</string>
+    <string name="StartigicPlanTools2">	الرموز: تستخدم الرموز في توضيح العلاقات الترابطية بين الأفكار ومنها (النجوم، علامات التعجب، علامات الاستفهام).</string>
+    <string name="StartigicPlanTools3">	الأشكال الهندسية: تستخدم الأشكال الهندسية لوضع الكلمات الدلالية بداخلها أو وضع صورة أو رسم بداخلها تعبر عن الفكرة المراد توصيلها للمتعلمين ومن الأشكال الهندسية التي يمكن استخدامها في الخرائط الذهنية الإلكترونية (المربع، المستطيل، الدائرة، الأشكال ثلاثية الأبعاد).</string>
+    <string name="StartigicPlanTools4">	الألوان: تستخدم الألوان في تلوين الفروع التي تربط بين الأفكار المتضمنة في الخريطة الذهنية، وتكمن الفائدة من استخدام الألوان في كونها منشطة للذاكرة وأداة مساعدة إبداعية في تعميق الربط في دماغ المتعلمين مما يساعد في تنشيط الشق الأيمن لمخ المتعلمين.</string>
+    <string name="StartigicPlanDesign">كيفية تصميم الخريطة الذهنية الإلكترونية:</string>
+    <string name="StartigicPlanDesign1">	تحميل برنامج رسم الخرائط الذهنية الإلكترونية.</string>
+    <string name="StartigicPlanDesign2">	اختاري قالب للخريطة الذهنية الإلكترونية من مجموعة القوالب الجاهزة بالبرنامج أو صممي خريطة فارغة.</string>
+    <string name="StartigicPlanDesign3">	ضعي الفكرة المحورية أو صورة مركزية تعبر عن الفكرة المحورية في منتصف الصفحة.</string>
+    <string name="StartigicPlanDesign4">	ابدئي بعمل التفرعات التي تربط بين الفكرة المحورية بالأفكار الرئيسية والأفكار الثانوية.</string>
+    <string name="StartigicPlanDesign5">	استخدمي الألوان لتلوين الأفرع والكلمات الدلالية.</string>
+    <string name="StartigicPlanDesign6">	استخدمي الرموز التعبيرية</string>
+    <string name="StartigicPlanDesign7">	اكتبي الملاحظات المكتوبة أو الصوتية</string>
+    <string name="StartigicPlanDesign8">	ضعي ارتباطات تشعبية.</string>
+    <string name="StartigicPlanDesign9">	احفظي خريطتك الذهنية بالامتداد المناسب (PDF, MMAP, HTML, PPTX, SWF, JPG,WMF).</string>
+    <string name="StartigicPlanDesignRoles">	قواعد رسم الخريطة الذهنية الإلكترونية:</string>
+    <string name="StartigicPlanDesignRoles1">	ابدئي بتصميم خريطتك الذهنية الإلكترونية من منتصف الصفحة.</string>
+    <string name="StartigicPlanDesignRoles2">	اختاري فكرة رئيسة واضحة.</string>
+    <string name="StartigicPlanDesignRoles3">	اجعلي خريطتك الذهنية تتميز بالشمولية والاستمرار والتدرج.</string>
+    <string name="StartigicPlanDesignRoles4">	استخدمي الألوان والصور والكلمات الدلالية.</string>
+    <string name="StartigicPlanDesignRoles5">	اختصري في الكلمات المكتوبة.</string>
+    <string name="StartigicPlanDesignRoles6">	استخدمي الأفرع والأشكال الهندسية.</string>
+    <string name="StartigicPlanDesignRoles7">	اعتني بتناسق الشكل العام لخريطتك الذهنية.</string>
+    <string name="StartigicPlanDesignRoles8">	حافظي على الترابط بين الأفكار.</string>
+    <string name="StartigicPlanDesignRoles9">	راعي عدم التزاحم في المعلومات.</string>
+    <string name="StartigicPlanModel">	نموذج تخطيطي لخريطة ذهنية إلكترونية:</string>
+    <string name="StartigicPlanModel1">عزيزتي الطالبة الشكل التالي هو نموذج تخطيطي لخريطة ذهنية إلكترونية لكي تسترشدين به اثناء تصميمك لخريطتك الذهنية الإلكترونية:</string>
 </resources>

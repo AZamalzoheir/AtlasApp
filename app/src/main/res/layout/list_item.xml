@@ -3,20 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="@dimen/base_margin"
+    android:background="@drawable/backgroundforlistitem"
     android:orientation="horizontal">
 
     <ImageView
         android:id="@+id/icon_image_view"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="0.5" />
+        android:layout_weight="0.5"
+        android:background="@color/backgroundColorList" />
 
     <TextView
         android:id="@+id/data_in_section_tv"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="3"
+        android:background="@color/backgroundColorList"
         android:text="@string/atlas"
         tools:layout_editor_absoluteX="195dp"
+        android:padding="@dimen/text_margin"
+        android:textColor="@color/fontColor2"
+        android:textSize="@dimen/font_size"
         tools:layout_editor_absoluteY="78dp" />
 </LinearLayout>

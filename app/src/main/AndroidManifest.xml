@@ -2,15 +2,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.amalzoheir.atlasapp">
 
+    <uses-permission android:name="android.permission." />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/atlaslogo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".HomePage"
+            android:name=".home.HomePage"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +27,35 @@
             android:name=".MainPage"
             android:label="@string/title_activity_main_page"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".goals"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".secondGoal"
+            android:label="@string/tab_text_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".answers.AnswerMCQ"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AnswerMSQTrueAndFalse"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Thirdgoal"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".FourthGoal"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".FifthGoal"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SixthGoal"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MapGoal"
+            android:screenOrientation="landscape"></activity>
     </application>
 
 </manifest>
